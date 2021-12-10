@@ -30,7 +30,7 @@ function geiuserInfo() {
             }
             //    调用渲染用户头像 renderAvatar
             renderAvatar(res.data)
-            console.log(res);
+                // console.log(res);
         },
 
     })

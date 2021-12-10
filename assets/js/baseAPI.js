@@ -6,8 +6,8 @@ $.ajaxPrefilter(function(options) {
 
     //发起ajax之前 统一拼接url
     options.url = 'http://api-breakingnews-web.itheima.net' + options.url
-    console.log(options.url);
-    // 统一为有权限的接口设置hearder响应头
+        // console.log(options.url);
+        // 统一为有权限的接口设置hearder响应头
     if (options.url.indexOf('/my/') !== -1) {
         options.headers = {
             Authorization: localStorage.getItem('token') || '',

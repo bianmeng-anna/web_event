@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
+    <link rel="stylesheet" href="/assets/lib/cropper/cropper.css">
+    <link rel="stylesheet" href="/assets/css/user/user.ava.css">
+
+</head>
+<!-- 卡片面板 -->
+<div class="layui-card">
+    <div class="layui-card-header">卡片面板</div>
+    <div class="layui-card-body">
+        <div class="layui-form-item">
+            <!-- 左侧的 label -->
+            <label class="layui-form-label">文章封面</label>
+            <!-- 选择封面区域 -->
+            <div class="layui-input-block cover-box">
+                <!-- 左侧裁剪区域 -->
+                <div class="cover-left">
+                    <img id="image" src="/assets/images/sample2.jpg" alt="" />
+
+                </div>
+
+                <!-- 右侧预览区域和选择封面区域 -->
+                <div class="cover-right">
+                    <!-- 预览的区域 -->
+                    <div class="img-preview"> 100 * 100-</div>
+                    <div class="img-preview">50 * 50</div>
+                    <!-- 选择封面按钮 -->
+                    <div class="row2">
+                        <!-- 通过accept可以指定选择类型 -->
+                        <input type="file" id="file" accept="image/png,image/jpeg">
+                        <button type="button" class="layui-btn" id="btnChoose">上传</button>
+                        <button type="button" class="layui-btn layui-btn-primary" id="btnUpload">确定</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <script src="/assets/lib/jquery.js"></script>
+    <script src="/assets/lib/layui/layui.all.js"></script>
+    <script src="/assets/lib/cropper/Cropper.js"></script>
+    <script src="/assets/lib/cropper/jquery-cropper.js"></script>
+    <script src="/assets/js/baseAPI.js"></script>
+    <script src="/assets/js/user_ava.js"></script>
+</body>
+
+</html>

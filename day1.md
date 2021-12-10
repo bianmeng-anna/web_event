@@ -4,6 +4,9 @@
 2. 项目的 API 接口地址： https://www.showdoc.cc/escook?page_id=3707158761215217
 备用接口：http://api-breakingnews-web.itheima.net
 
+http://www.liulongbin.top:3006
+接口文档https://www.showdoc.com.cn/1425457596992351/6972620264462285
+
 
 
 ## 1. 项目前期的准备工作
